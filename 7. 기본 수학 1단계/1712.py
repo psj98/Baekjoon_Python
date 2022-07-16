@@ -1,4 +1,3 @@
-# 처음 시도 (시간 초과)
 a, b, c=map(int, input().split())
 cnt=1
 if b>=c:print(-1)
@@ -10,7 +9,6 @@ else:
       break
     cnt+=1
 
-# 수정
 a, b, c = map(int, input().split())
 if b >= c:
     print(-1)
