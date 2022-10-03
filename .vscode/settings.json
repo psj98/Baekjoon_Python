@@ -44,5 +44,6 @@
         "set": "cpp",
         "ctime": "cpp",
         "iomanip": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
