@@ -43,6 +43,7 @@
         "map": "cpp",
         "set": "cpp",
         "ctime": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "stack": "cpp"
     }
 }
