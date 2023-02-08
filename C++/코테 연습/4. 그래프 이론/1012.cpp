@@ -3,14 +3,13 @@
 
 using namespace std;
 
-int a, b, c, n, cnt=0;
+int a, b, c, n;
 int dx[4]={-1, 1, 0, 0};
 int dy[4]={0, 0, -1, 1};
 int map[MAX][MAX];
 
 void dfs(int x, int y){
     map[x][y]=2;
-    cnt++;
 
     for(int i=0; i<4; i++){
         int tx=dx[i]+x;
@@ -35,11 +34,10 @@ int main() {
 
         for(int j=0; j<b; j++){
             for(int k=0; k<a; k++){
-                cnt=0;
-                if(map[j][k]==1)
+                if(map[j][k]==1){
                     dfs(j, k);
-
-                if(cnt!=0) ans++;
+                    ans++;
+                }
             }
         }
 
